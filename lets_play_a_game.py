@@ -3,9 +3,11 @@ user_name = input("What's your name dear friend\n")
 
 print(f"Ah yes {user_name}, I thought I smelled fear.\n")
 
-sassy_response = input("y: yes\nn: no\n")
+print(f"Do you want to give a sarcastic or polite response?\n")
 
-if sassy_response == "y":
+sassy_response = input("s: sarcastic\np: polite\n")
+
+if sassy_response == "s":
     print("I think that's your own stinky farts you are smelling.")
 
 else:
