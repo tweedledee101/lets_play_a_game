@@ -6,7 +6,7 @@ print(f"Ah yes {user_name}, I thought I smelled fear.\n")
 sassy_response = input("y: yes\nn: no\n")
 
 if sassy_response == "y":
-    print("I think that's your own stinky farts you are smelling."
+    print("I think that's your own stinky farts you are smelling.")
 
 else:
     print("*you nod politely*")
