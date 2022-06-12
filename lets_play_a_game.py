@@ -36,7 +36,6 @@ if user_feels == "1":
     }
 
     print("*********** Insult Options Are: *******************")
-    num = 1
     pprint(options)
 
     insult_Fantasma = input("What would you like to say to Fantasma? (input number here:)\n")
@@ -50,7 +49,11 @@ elif user_feels == "2":
                2: "I choose life",
                3: "Death isn't a good look for me man how'd the hell did I get in here anyway?!"
     }
-    scared_Fantasma_input = input("What would you like to say to Fantasma? (input number here:\n")
+
+    pprint(options)
+    scared_Fantasma_input = input("What would you like to say to Fantasma? (input number here:)\n")
+    int_scared_Fantasma_input = int(scared_Fantasma_input)
+    print(f"\n {user_name}, frighetened by Fantasma's presence says: ", options[int_scared_Fantasma_input])
 
 else:
 # @Fatime !!!! I intentionally left an error in here, can you tell me what the error is, and why its an error?
@@ -60,15 +63,5 @@ else:
                3: "Hey, you're kinda scary, think you can scare my boss into giving me the day off?"
     }
 
-
-
-#print(f" Would you like to go on a journey with me? \n")
-
-#journey_answer = input("y: yes\nn: no\n")
-
-#if journey_answer == "y":
-#    print("wonderful, glad to have you aboard!")
-
-#else:
-#    print("fine, come back when you wanna talk")
-#    exit()
+    pprint(options)
+    indifferent_Fantasma_input = input("What would you like to say to Fantasma? (input number here:\n")
