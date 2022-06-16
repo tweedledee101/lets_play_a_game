@@ -65,3 +65,5 @@ else:
 
     pprint(options)
     indifferent_Fantasma_input = input("What would you like to say to Fantasma? (input number here:\n")
+    int_indifferent_Fantasma_input = int(indifferent_Fantasma_input)
+    print(f"\n {user_name}, is not impressed by Fantasma and says: ", options[int_indifferent_Fantasma_input])
