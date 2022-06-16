@@ -1,6 +1,12 @@
 import random
 from pprint import pprint
 
+dice_one = random.randint(1, 20)
+dice_two = random.randint(1, 20)
+
+print('This is your hit points for this turn.\n')
+print(dice_one + dice_two)
+
 # Setting the scene
 print("Welcome to Fantasma's: Game of Horror\n brought to you by tweedledee\n")
 
@@ -67,3 +73,4 @@ else:
     indifferent_Fantasma_input = input("What would you like to say to Fantasma? (input number here:\n")
     int_indifferent_Fantasma_input = int(indifferent_Fantasma_input)
     print(f"\n {user_name}, is not impressed by Fantasma and says: ", options[int_indifferent_Fantasma_input])
+
