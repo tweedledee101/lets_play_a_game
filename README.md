@@ -21,3 +21,11 @@ use these commands in your terminal:
   git add <filename>
   git commit
   git push
+
+
+First Module (Library) "Random":
+
+In our game, we're going to need numbers. As this is a game, it would be nice to leave some things up to chance.
+
+In this case, I chose a library called random (can you think of any uses for a random number outside of a game?). 
+
